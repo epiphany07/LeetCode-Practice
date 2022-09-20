@@ -5,21 +5,6 @@ class Solution:
 
     def findLength(self, l1: List[int], l2: List[int]) -> int:
         
-#         dp = [[0] * (len(nums2)+1) for _ in range(len(nums1)+1)]
-
-#         mx = 0
-#         for i in range(1,len(nums1)+1):
-#             for j in range(1,len(nums2)+1):
-#                 if nums1[i-1] == nums2[j-1]:
-#                     dp[i][j] = dp[i-1][j-1] + 1
-#                     if dp[i][j] > mx:
-#                         mx = dp[i][j]
-#         return mx
-        
-        
-        
-        
-        
         # @lru_cache(None)
         if l1==l2:
             return len(l1)
