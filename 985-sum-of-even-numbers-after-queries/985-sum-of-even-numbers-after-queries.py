@@ -12,10 +12,10 @@ class Solution:
                 ev=ev+nums[l[1]]
             res.append(ev)
         return res
-def even(l):
-    s=0
-    [s:=s+i for i in l if i&1==0]
-    # print(s)
-    return s
+# def even(l):
+#     s=0
+#     [s:=s+i for i in l if i&1==0]
+#     # print(s)
+#     return s
             
         
