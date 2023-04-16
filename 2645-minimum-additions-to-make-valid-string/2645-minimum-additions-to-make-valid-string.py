@@ -3,20 +3,20 @@ class Solution:
         # word=word.replace("abc","")
         # print(word)
         c,i=0,0
-        # l=len(word)
-        while i<len(word):
+        l=len(word)
+        while i<l:
             # print(i)
-            if i>=len(word) or word[i]!='a':
+            if i>=l or word[i]!='a':
                 c+=1
             else:
                 i+=1
                 # print(i)
-            if i>=len(word) or word[i]!='b':
+            if i>=l or word[i]!='b':
                 # print(c)
                 c+=1
             else:
                 i+=1
-            if i>=len(word) or word[i]!='c':
+            if i>=l or word[i]!='c':
                 c+=1
             else:
                 i+=1
